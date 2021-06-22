@@ -1,4 +1,6 @@
 # Customer
+public boolean redeemPoint(String customerId, String amount)
+{ 
 
 if(customerId!=null && !customerId.isEmpty() && amount!=null && !amount.isEmpty()) {
 			Double toRedeem = Double.valueOf(amount); 
